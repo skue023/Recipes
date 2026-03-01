@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New recipe</title>
+    <link rel="stylesheet" href="adding.css" />
+  </head>
+  <body>
+    <h2>Add a new recipe</h2>
+    <form id="new">
+      <h4>Recipe name</h4>
+      <input
+        id="name"
+        name="recipe-name"
+        autocomplete="new-password"
+        required
+      />
+      <h4>Ingredients</h4>
+      <textarea
+        id="ingredients"
+        name="ingredients"
+        autocomplete="new-password"
+        required
+      ></textarea>
+      <h4>Instructions</h4>
+      <textarea
+        id="instructions"
+        name="instructions"
+        autocomplete="new-password"
+        required
+      ></textarea>
+      <br />
+      <input type="submit" id="save" value="Save recipe" />
+    </form>
+    <script src="add.js"></script>
+  </body>
+</html>

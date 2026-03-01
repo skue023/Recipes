@@ -1,0 +1,14 @@
+ul {
+  font-size: 20px;
+}
+
+#add {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 11px;
+  margin-bottom: 10px;
+  background-color: rgb(50, 219, 50);
+  border-width: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
